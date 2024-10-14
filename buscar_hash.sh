@@ -20,7 +20,7 @@ echo "Buscando archivo con hash MD5 $HASH_BUSCADO..."
 for file in carpeta_imagenes/*; do
     HASH_ACTUAL=$(md5sum "$file" | awk '{print $1}')
     if [ "$HASH_ACTUAL" == "$HASH_BUSCADO" ]; then
-        echo "¡Archivo encontrado!: $file"
+        echo "¡Se ha encontrado el archivo!: $file"
         exit 0
     fi
 done
