@@ -2,7 +2,7 @@ from collections import Counter
 
 def realizarCambio(texto):
 	print("\n")
-	letra1=input("Introduce que letra quieres cambiar")
+	letra1=input("Introduce que letra quieres cambiar :)")
 	letra2=input("Introduce la letra por la que la quieres cambiar")
 	return texto.replace(letra1,letra2)
 	
